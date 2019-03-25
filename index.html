@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pomodoro Clock</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Lobster|Raleway|Roboto+Condensed" rel="stylesheet">
+</head>
+<body>
+<div id="endText" class="circle">03</div>
+
+<div class="everything">
+	<h1 id="title">Work Hard, Play Harder!!!</h1>
+	<div>
+		<h2 class="forColor">Break<span><input type="number" min="1" name="" id="theBreakTime" value="1"></span></h2>
+	</div>
+	<div>
+		<h2 class="forColor" >Start..<span><input type="number" min="1" name="" id="theSessionTime" value="1"></span></h2>
+	</div>
+	<div id="theButtons">
+		<button class="startAndReset">Start</button>
+		<button class="playAndPause" disabled="">Pause</button>
+	</div>
+	<div id="timeSection">
+		<h1 id="textDisplay">Work Hard</h1>	
+		<h1 id="timeDisplay">00 : 01 : 00</h1>
+	</div>
+</div>
+
+		
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
